@@ -1,5 +1,4 @@
 import Foundation
-import CocoaLumberjackSwift
 
 open class DNSSession {
     public let requestMessage: DNSMessage
@@ -22,12 +21,12 @@ open class DNSSession {
 
     init?(message: DNSMessage) {
         guard message.messageType == .query else {
-            DDLogError("DNSSession can only be initailized by a DNS query.")
+            print("DNSSession can only be initailized by a DNS query.")
             return nil
         }
 
         guard message.queries.count == 1 else {
-            DDLogError("Expecting the DNS query has exact one query entry.")
+            print("Expecting the DNS query has exact one query entry.")
             return nil
         }
 

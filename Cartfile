@@ -1,5 +1,4 @@
 github "robbiehanson/CocoaAsyncSocket" ~> 7.6.3
-github "CocoaLumberjack/CocoaLumberjack" ~> 3.5.2
 github "lexrus/MMDB-Swift" "0.5.0"
 github "zhanggenlove/Sodium-framework" "master"
 github "behrang/YamlSwift" "3.4.3"

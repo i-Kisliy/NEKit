@@ -1,5 +1,4 @@
 import Foundation
-import CocoaLumberjackSwift
 
 /// The rule matches the session based on the geographical location of the corresponding IP address.
 open class CountryRule: Rule {
