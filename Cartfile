@@ -1,5 +1,5 @@
 github "robbiehanson/CocoaAsyncSocket" ~> 7.6.3
-github "lexrus/MMDB-Swift" "0.5.0"
+github "zhanggenlove/MMDB-Swift" "master"
 github "zhanggenlove/Sodium-framework" "master"
 github "behrang/YamlSwift" "3.4.3"
 github "zhuhaow/tun2socks" ~> 0.7.0
