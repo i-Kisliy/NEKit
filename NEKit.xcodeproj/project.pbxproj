@@ -226,13 +226,13 @@
 		36E44A021CF2ED4800185DBF /* TUNInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E44A011CF2ED4800185DBF /* TUNInterface.swift */; };
 		36E9CCFF1DD6EEF5003597CE /* QueueFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E9CCFE1DD6EEF5003597CE /* QueueFactory.swift */; };
 		36E9CD001DD6EEF5003597CE /* QueueFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E9CCFE1DD6EEF5003597CE /* QueueFactory.swift */; };
-		7A95EA372935CAD70015B139 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA362935CAD70015B139 /* CocoaAsyncSocket.framework */; };
-		7A95EA392935CAE80015B139 /* lwip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA382935CAE80015B139 /* lwip.framework */; };
-		7A95EA3B2935CAF30015B139 /* MMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA3A2935CAF30015B139 /* MMDB.framework */; };
-		7A95EA3D2935CAF90015B139 /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA3C2935CAF90015B139 /* Resolver.framework */; };
-		7A95EA3F2935CB030015B139 /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA3E2935CB030015B139 /* Sodium.framework */; };
-		7A95EA412935CB0C0015B139 /* tun2socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA402935CB0C0015B139 /* tun2socks.framework */; };
-		7A95EA432935CB150015B139 /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA422935CB150015B139 /* Yaml.framework */; };
+		7A95EA452935CCE00015B139 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA442935CCDF0015B139 /* CocoaAsyncSocket.framework */; };
+		7A95EA472935CCEC0015B139 /* lwip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA462935CCEC0015B139 /* lwip.framework */; };
+		7A95EA492935CCF40015B139 /* MMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA482935CCF40015B139 /* MMDB.framework */; };
+		7A95EA4B2935CCFD0015B139 /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA4A2935CCFD0015B139 /* Resolver.framework */; };
+		7A95EA4D2935CD060015B139 /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA4C2935CD060015B139 /* Sodium.framework */; };
+		7A95EA4F2935CD0C0015B139 /* tun2socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA4E2935CD0C0015B139 /* tun2socks.framework */; };
+		7A95EA512935CD130015B139 /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA502935CD130015B139 /* Yaml.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -447,13 +447,13 @@
 		36DB3CEE1E0D610500D907DB /* IPAddressSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPAddressSpec.swift; sourceTree = "<group>"; };
 		36E44A011CF2ED4800185DBF /* TUNInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUNInterface.swift; sourceTree = "<group>"; };
 		36E9CCFE1DD6EEF5003597CE /* QueueFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QueueFactory.swift; path = Tunnel/QueueFactory.swift; sourceTree = "<group>"; };
-		7A95EA362935CAD70015B139 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = "Carthage/Build/CocoaAsyncSocket.xcframework/ios-arm64_i386_x86_64-simulator/CocoaAsyncSocket.framework"; sourceTree = "<group>"; };
-		7A95EA382935CAE80015B139 /* lwip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lwip.framework; path = "Carthage/Build/lwip.xcframework/ios-arm64_i386_x86_64-simulator/lwip.framework"; sourceTree = "<group>"; };
-		7A95EA3A2935CAF30015B139 /* MMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMDB.framework; path = "Carthage/Build/MMDB.xcframework/ios-arm64_i386_x86_64-simulator/MMDB.framework"; sourceTree = "<group>"; };
-		7A95EA3C2935CAF90015B139 /* Resolver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Resolver.framework; path = "Carthage/Build/Resolver.xcframework/ios-arm64_i386_x86_64-simulator/Resolver.framework"; sourceTree = "<group>"; };
-		7A95EA3E2935CB030015B139 /* Sodium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sodium.framework; path = "Carthage/Build/Sodium.xcframework/ios-i386_x86_64-simulator/Sodium.framework"; sourceTree = "<group>"; };
-		7A95EA402935CB0C0015B139 /* tun2socks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tun2socks.framework; path = "Carthage/Build/tun2socks.xcframework/ios-arm64_i386_x86_64-simulator/tun2socks.framework"; sourceTree = "<group>"; };
-		7A95EA422935CB150015B139 /* Yaml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yaml.framework; path = "Carthage/Build/Yaml.xcframework/ios-arm64_i386_x86_64-simulator/Yaml.framework"; sourceTree = "<group>"; };
+		7A95EA442935CCDF0015B139 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = "Carthage/Build/CocoaAsyncSocket.xcframework/ios-arm64_armv7/CocoaAsyncSocket.framework"; sourceTree = "<group>"; };
+		7A95EA462935CCEC0015B139 /* lwip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lwip.framework; path = "Carthage/Build/lwip.xcframework/ios-arm64_armv7/lwip.framework"; sourceTree = "<group>"; };
+		7A95EA482935CCF40015B139 /* MMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMDB.framework; path = "Carthage/Build/MMDB.xcframework/ios-arm64_armv7/MMDB.framework"; sourceTree = "<group>"; };
+		7A95EA4A2935CCFD0015B139 /* Resolver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Resolver.framework; path = "Carthage/Build/Resolver.xcframework/ios-arm64_armv7/Resolver.framework"; sourceTree = "<group>"; };
+		7A95EA4C2935CD060015B139 /* Sodium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sodium.framework; path = "Carthage/Build/Sodium.xcframework/ios-arm64_armv7/Sodium.framework"; sourceTree = "<group>"; };
+		7A95EA4E2935CD0C0015B139 /* tun2socks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tun2socks.framework; path = "Carthage/Build/tun2socks.xcframework/ios-arm64_armv7/tun2socks.framework"; sourceTree = "<group>"; };
+		7A95EA502935CD130015B139 /* Yaml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yaml.framework; path = "Carthage/Build/Yaml.xcframework/ios-arm64_armv7/Yaml.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -492,13 +492,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A95EA3F2935CB030015B139 /* Sodium.framework in Frameworks */,
-				7A95EA372935CAD70015B139 /* CocoaAsyncSocket.framework in Frameworks */,
-				7A95EA392935CAE80015B139 /* lwip.framework in Frameworks */,
-				7A95EA3B2935CAF30015B139 /* MMDB.framework in Frameworks */,
-				7A95EA3D2935CAF90015B139 /* Resolver.framework in Frameworks */,
-				7A95EA412935CB0C0015B139 /* tun2socks.framework in Frameworks */,
-				7A95EA432935CB150015B139 /* Yaml.framework in Frameworks */,
+				7A95EA452935CCE00015B139 /* CocoaAsyncSocket.framework in Frameworks */,
+				7A95EA472935CCEC0015B139 /* lwip.framework in Frameworks */,
+				7A95EA492935CCF40015B139 /* MMDB.framework in Frameworks */,
+				7A95EA4B2935CCFD0015B139 /* Resolver.framework in Frameworks */,
+				7A95EA4D2935CD060015B139 /* Sodium.framework in Frameworks */,
+				7A95EA4F2935CD0C0015B139 /* tun2socks.framework in Frameworks */,
+				7A95EA512935CD130015B139 /* Yaml.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,13 +508,13 @@
 		360F392A1DD2068D002BED59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7A95EA422935CB150015B139 /* Yaml.framework */,
-				7A95EA402935CB0C0015B139 /* tun2socks.framework */,
-				7A95EA3E2935CB030015B139 /* Sodium.framework */,
-				7A95EA3C2935CAF90015B139 /* Resolver.framework */,
-				7A95EA3A2935CAF30015B139 /* MMDB.framework */,
-				7A95EA382935CAE80015B139 /* lwip.framework */,
-				7A95EA362935CAD70015B139 /* CocoaAsyncSocket.framework */,
+				7A95EA502935CD130015B139 /* Yaml.framework */,
+				7A95EA4E2935CD0C0015B139 /* tun2socks.framework */,
+				7A95EA4C2935CD060015B139 /* Sodium.framework */,
+				7A95EA4A2935CCFD0015B139 /* Resolver.framework */,
+				7A95EA482935CCF40015B139 /* MMDB.framework */,
+				7A95EA462935CCEC0015B139 /* lwip.framework */,
+				7A95EA442935CCDF0015B139 /* CocoaAsyncSocket.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1844,6 +1844,13 @@
 					"$(PROJECT_DIR)/Carthage/Build/Sodium.xcframework/ios-i386_x86_64-simulator",
 					"$(PROJECT_DIR)/Carthage/Build/tun2socks.xcframework/ios-arm64_i386_x86_64-simulator",
 					"$(PROJECT_DIR)/Carthage/Build/Yaml.xcframework/ios-arm64_i386_x86_64-simulator",
+					"$(PROJECT_DIR)/Carthage/Build/CocoaAsyncSocket.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Carthage/Build/lwip.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Carthage/Build/MMDB.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Carthage/Build/Resolver.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Carthage/Build/Sodium.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Carthage/Build/tun2socks.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Carthage/Build/Yaml.xcframework/ios-arm64_armv7",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					MMDB_UINT128_IS_BYTE_ARRAY,
@@ -1862,6 +1869,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Debug;
 		};
@@ -1885,6 +1893,13 @@
 					"$(PROJECT_DIR)/Carthage/Build/Sodium.xcframework/ios-i386_x86_64-simulator",
 					"$(PROJECT_DIR)/Carthage/Build/tun2socks.xcframework/ios-arm64_i386_x86_64-simulator",
 					"$(PROJECT_DIR)/Carthage/Build/Yaml.xcframework/ios-arm64_i386_x86_64-simulator",
+					"$(PROJECT_DIR)/Carthage/Build/CocoaAsyncSocket.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Carthage/Build/lwip.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Carthage/Build/MMDB.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Carthage/Build/Resolver.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Carthage/Build/Sodium.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Carthage/Build/tun2socks.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Carthage/Build/Yaml.xcframework/ios-arm64_armv7",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = MMDB_UINT128_IS_BYTE_ARRAY;
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
@@ -1900,6 +1915,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES;
 			};
 			name = Release;
 		};
