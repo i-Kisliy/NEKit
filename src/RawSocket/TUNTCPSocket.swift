@@ -1,7 +1,6 @@
 import Foundation
-import tun2socks
 
-/// The TCP socket build upon `TSTCPSocket`.
+/// The TCP socket build upon `TSTCPSocket`.TSTCPSocketDelegate
 ///
 /// - warning: This class is not thread-safe.
 public class TUNTCPSocket: RawTCPSocketProtocol, TSTCPSocketDelegate {
