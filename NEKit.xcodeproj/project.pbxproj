@@ -229,7 +229,6 @@
 		7A95EA452935CCE00015B139 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA442935CCDF0015B139 /* CocoaAsyncSocket.framework */; };
 		7A95EA472935CCEC0015B139 /* lwip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA462935CCEC0015B139 /* lwip.framework */; };
 		7A95EA492935CCF40015B139 /* MMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA482935CCF40015B139 /* MMDB.framework */; };
-		7A95EA4B2935CCFD0015B139 /* Resolver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA4A2935CCFD0015B139 /* Resolver.framework */; };
 		7A95EA4D2935CD060015B139 /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA4C2935CD060015B139 /* Sodium.framework */; };
 		7A95EA4F2935CD0C0015B139 /* tun2socks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA4E2935CD0C0015B139 /* tun2socks.framework */; };
 		7A95EA512935CD130015B139 /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA502935CD130015B139 /* Yaml.framework */; };
@@ -450,7 +449,6 @@
 		7A95EA442935CCDF0015B139 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = "Carthage/Build/CocoaAsyncSocket.xcframework/ios-arm64_armv7/CocoaAsyncSocket.framework"; sourceTree = "<group>"; };
 		7A95EA462935CCEC0015B139 /* lwip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = lwip.framework; path = "Carthage/Build/lwip.xcframework/ios-arm64_armv7/lwip.framework"; sourceTree = "<group>"; };
 		7A95EA482935CCF40015B139 /* MMDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MMDB.framework; path = "Carthage/Build/MMDB.xcframework/ios-arm64_armv7/MMDB.framework"; sourceTree = "<group>"; };
-		7A95EA4A2935CCFD0015B139 /* Resolver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Resolver.framework; path = "Carthage/Build/Resolver.xcframework/ios-arm64_armv7/Resolver.framework"; sourceTree = "<group>"; };
 		7A95EA4C2935CD060015B139 /* Sodium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sodium.framework; path = "Carthage/Build/Sodium.xcframework/ios-arm64_armv7/Sodium.framework"; sourceTree = "<group>"; };
 		7A95EA4E2935CD0C0015B139 /* tun2socks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = tun2socks.framework; path = "Carthage/Build/tun2socks.xcframework/ios-arm64_armv7/tun2socks.framework"; sourceTree = "<group>"; };
 		7A95EA502935CD130015B139 /* Yaml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yaml.framework; path = "Carthage/Build/Yaml.xcframework/ios-arm64_armv7/Yaml.framework"; sourceTree = "<group>"; };
@@ -495,7 +493,6 @@
 				7A95EA452935CCE00015B139 /* CocoaAsyncSocket.framework in Frameworks */,
 				7A95EA472935CCEC0015B139 /* lwip.framework in Frameworks */,
 				7A95EA492935CCF40015B139 /* MMDB.framework in Frameworks */,
-				7A95EA4B2935CCFD0015B139 /* Resolver.framework in Frameworks */,
 				7A95EA4D2935CD060015B139 /* Sodium.framework in Frameworks */,
 				7A95EA4F2935CD0C0015B139 /* tun2socks.framework in Frameworks */,
 				7A95EA512935CD130015B139 /* Yaml.framework in Frameworks */,
@@ -511,7 +508,6 @@
 				7A95EA502935CD130015B139 /* Yaml.framework */,
 				7A95EA4E2935CD0C0015B139 /* tun2socks.framework */,
 				7A95EA4C2935CD060015B139 /* Sodium.framework */,
-				7A95EA4A2935CCFD0015B139 /* Resolver.framework */,
 				7A95EA482935CCF40015B139 /* MMDB.framework */,
 				7A95EA462935CCEC0015B139 /* lwip.framework */,
 				7A95EA442935CCDF0015B139 /* CocoaAsyncSocket.framework */,
@@ -609,6 +605,7 @@
 		36463A261CDCD5EB0040579C = {
 			isa = PBXGroup;
 			children = (
+				7A2EB99B2935E30B0099EE0C /* Resolver */,
 				360F392A1DD2068D002BED59 /* Frameworks */,
 				36C48D4E1CF88DED0071804F /* NEKit-iOS */,
 				368225B91D12484D00E7B495 /* NEKit-macOS */,
@@ -928,6 +925,13 @@
 				36DB3CEE1E0D610500D907DB /* IPAddressSpec.swift */,
 			);
 			name = IP;
+			sourceTree = "<group>";
+		};
+		7A2EB99B2935E30B0099EE0C /* Resolver */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resolver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

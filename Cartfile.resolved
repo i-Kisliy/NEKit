@@ -1,6 +1,5 @@
-github "behrang/YamlSwift" "3.4.3"
+github "zhanggenlove/YamlSwift" "master"
 github "robbiehanson/CocoaAsyncSocket" "7.6.5"
-github "zhanggenlove/MMDB-Swift" "44a0e3d748d3aa43766be8586cce9f8877f32d3b"
+github "zhanggenlove/MMDB-Swift" "07a0f93324ba6a81fd930a9dd58f7b9cdfdabea5"
 github "zhanggenlove/Sodium-framework" "2560f59317f6d642da384e84c597ec5bac467ea0"
-github "zhuhaow/Resolver" "0.2.0"
 github "zhuhaow/tun2socks" "0.7.0"
