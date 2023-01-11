@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -240,6 +240,18 @@
 		7A95EA512935CD130015B139 /* Yaml.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A95EA502935CD130015B139 /* Yaml.framework */; };
 		7A97EA882935F40100CD7221 /* lwip in Resources */ = {isa = PBXBuildFile; fileRef = 7A97EA862935F40100CD7221 /* lwip */; };
 		7A97EA902935F74800CD7221 /* lwip in Resources */ = {isa = PBXBuildFile; fileRef = 7A97EA862935F40100CD7221 /* lwip */; };
+		C6ADDEE5296ED50300DE3809 /* Sodium.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ADDEDF296ED50200DE3809 /* Sodium.xcframework */; };
+		C6ADDEE7296ED50300DE3809 /* tun2socks.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ADDEE0296ED50200DE3809 /* tun2socks.xcframework */; };
+		C6ADDEE9296ED50300DE3809 /* CocoaAsyncSocket.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ADDEE1296ED50200DE3809 /* CocoaAsyncSocket.xcframework */; };
+		C6ADDEEB296ED50300DE3809 /* Yaml.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ADDEE2296ED50200DE3809 /* Yaml.xcframework */; };
+		C6ADDEED296ED50300DE3809 /* lwip.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ADDEE3296ED50200DE3809 /* lwip.xcframework */; };
+		C6ADDEEF296ED50400DE3809 /* MMDB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ADDEE4296ED50200DE3809 /* MMDB.xcframework */; };
+		C6ADDEF1296ED63B00DE3809 /* CocoaAsyncSocket.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ADDEE1296ED50200DE3809 /* CocoaAsyncSocket.xcframework */; };
+		C6ADDEF3296ED63B00DE3809 /* lwip.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ADDEE3296ED50200DE3809 /* lwip.xcframework */; };
+		C6ADDEF5296ED63B00DE3809 /* MMDB.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ADDEE4296ED50200DE3809 /* MMDB.xcframework */; };
+		C6ADDEF7296ED63B00DE3809 /* Sodium.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ADDEDF296ED50200DE3809 /* Sodium.xcframework */; };
+		C6ADDEF9296ED63B00DE3809 /* tun2socks.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ADDEE0296ED50200DE3809 /* tun2socks.xcframework */; };
+		C6ADDEFB296ED63B00DE3809 /* Yaml.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ADDEE2296ED50200DE3809 /* Yaml.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -279,24 +291,6 @@
 		362347931D7FC5BF00A047DE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		36A503F61CF5AC5800D1FC78 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		36A718E61D5AF2AF00DC35F5 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
@@ -463,6 +457,12 @@
 		7A95EA4C2935CD060015B139 /* Sodium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sodium.framework; path = "Carthage/Build/Sodium.xcframework/ios-arm64_armv7/Sodium.framework"; sourceTree = "<group>"; };
 		7A95EA502935CD130015B139 /* Yaml.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Yaml.framework; path = "Carthage/Build/Yaml.xcframework/ios-arm64_armv7/Yaml.framework"; sourceTree = "<group>"; };
 		7A97EA862935F40100CD7221 /* lwip */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lwip; sourceTree = "<group>"; };
+		C6ADDEDF296ED50200DE3809 /* Sodium.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Sodium.xcframework; path = Carthage/Build/Sodium.xcframework; sourceTree = "<group>"; };
+		C6ADDEE0296ED50200DE3809 /* tun2socks.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = tun2socks.xcframework; path = Carthage/Build/tun2socks.xcframework; sourceTree = "<group>"; };
+		C6ADDEE1296ED50200DE3809 /* CocoaAsyncSocket.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CocoaAsyncSocket.xcframework; path = Carthage/Build/CocoaAsyncSocket.xcframework; sourceTree = "<group>"; };
+		C6ADDEE2296ED50200DE3809 /* Yaml.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Yaml.xcframework; path = Carthage/Build/Yaml.xcframework; sourceTree = "<group>"; };
+		C6ADDEE3296ED50200DE3809 /* lwip.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = lwip.xcframework; path = Carthage/Build/lwip.xcframework; sourceTree = "<group>"; };
+		C6ADDEE4296ED50200DE3809 /* MMDB.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MMDB.xcframework; path = Carthage/Build/MMDB.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -486,6 +486,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6ADDEE9296ED50300DE3809 /* CocoaAsyncSocket.xcframework in Frameworks */,
+				C6ADDEE7296ED50300DE3809 /* tun2socks.xcframework in Frameworks */,
+				C6ADDEEB296ED50300DE3809 /* Yaml.xcframework in Frameworks */,
+				C6ADDEED296ED50300DE3809 /* lwip.xcframework in Frameworks */,
+				C6ADDEE5296ED50300DE3809 /* Sodium.xcframework in Frameworks */,
+				C6ADDEEF296ED50400DE3809 /* MMDB.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,8 +508,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A95EA452935CCE00015B139 /* CocoaAsyncSocket.framework in Frameworks */,
+				C6ADDEF3296ED63B00DE3809 /* lwip.xcframework in Frameworks */,
+				C6ADDEF7296ED63B00DE3809 /* Sodium.xcframework in Frameworks */,
 				7A95EA492935CCF40015B139 /* MMDB.framework in Frameworks */,
 				7A95EA4D2935CD060015B139 /* Sodium.framework in Frameworks */,
+				C6ADDEF9296ED63B00DE3809 /* tun2socks.xcframework in Frameworks */,
+				C6ADDEFB296ED63B00DE3809 /* Yaml.xcframework in Frameworks */,
+				C6ADDEF1296ED63B00DE3809 /* CocoaAsyncSocket.xcframework in Frameworks */,
+				C6ADDEF5296ED63B00DE3809 /* MMDB.xcframework in Frameworks */,
 				7A95EA512935CD130015B139 /* Yaml.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +526,12 @@
 		360F392A1DD2068D002BED59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C6ADDEE1296ED50200DE3809 /* CocoaAsyncSocket.xcframework */,
+				C6ADDEE3296ED50200DE3809 /* lwip.xcframework */,
+				C6ADDEE4296ED50200DE3809 /* MMDB.xcframework */,
+				C6ADDEDF296ED50200DE3809 /* Sodium.xcframework */,
+				C6ADDEE0296ED50200DE3809 /* tun2socks.xcframework */,
+				C6ADDEE2296ED50200DE3809 /* Yaml.xcframework */,
 				7A95EA502935CD130015B139 /* Yaml.framework */,
 				7A95EA4C2935CD060015B139 /* Sodium.framework */,
 				7A95EA482935CCF40015B139 /* MMDB.framework */,
@@ -1009,7 +1027,6 @@
 				36463A2E1CDCD5EB0040579C /* Resources */,
 				C761B0AADCE235DA95F31D5A /* Warn for TODO and FIXME comments */,
 				E60ADF4730A8B268DBD07CAC /* Set version number */,
-				36A503F61CF5AC5800D1FC78 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1050,7 +1067,6 @@
 				36C48D4B1CF88DED0071804F /* Resources */,
 				B596614759D8E2954DE5A031 /* Warn for TODO and FIXME comments */,
 				54BD0DA398CF0C5B9E0B9491 /* Set version number */,
-				36A718E61D5AF2AF00DC35F5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -1543,7 +1559,11 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				INFOPLIST_FILE = "NEKitTest-macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.NEKit.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1562,7 +1582,11 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				INFOPLIST_FILE = "NEKitTest-macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.NEKit.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1581,7 +1605,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				INFOPLIST_FILE = "NEKitTests-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.NEKit.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -1602,7 +1630,11 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				INFOPLIST_FILE = "NEKitTests-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.NEKit.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -1740,7 +1772,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1765,7 +1798,12 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "NEKit-macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.NEKit;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
@@ -1794,7 +1832,11 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "NEKit-macOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.NEKit;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
@@ -1815,7 +1857,10 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				INFOPLIST_FILE = NEKitDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.osx.NEKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1835,7 +1880,10 @@
 				);
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				INFOPLIST_FILE = NEKitDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.osx.NEKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1845,8 +1893,8 @@
 		36C48D531CF88DED0071804F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -1880,8 +1928,13 @@
 				INFOPLIST_FILE = "NEKit-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.NEKit;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
@@ -1896,8 +1949,8 @@
 		36C48D541CF88DED0071804F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
@@ -1928,7 +1981,11 @@
 				INFOPLIST_FILE = "NEKit-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.NEKit;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
